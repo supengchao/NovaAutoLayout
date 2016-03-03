@@ -6,15 +6,14 @@ import android.graphics.Color;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.zhy.autolayout.AutoLayoutInfo;
-import com.zhy.autolayout.R;
-import com.zhy.autolayout.utils.AutoLayoutHelper;
-import com.zhy.autolayout.utils.AutoUtils;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import nova.xiaoju.com.novaautolayout.AutoLayoutInfo;
+import nova.xiaoju.com.novaautolayout.R;
+import nova.xiaoju.com.novaautolayout.utils.AutoLayoutHelper;
+import nova.xiaoju.com.novaautolayout.utils.AutoUtils;
 
 /**
  * Created by zhy on 15/12/10.

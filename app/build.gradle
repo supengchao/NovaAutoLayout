@@ -1,8 +1,7 @@
 apply plugin: 'com.android.application'
 //apply plugin: 'com.github.dcendents.android-maven'
 //apply plugin: 'com.jfrog.bintray'
-// 提交到仓库中的版本号
-version = "1.0.0"
+version = "1.0.1"
 android {
     compileSdkVersion 22
     buildToolsVersion '22.0.1'
@@ -28,15 +27,15 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.0'
 }
 
-//def siteUrl = 'https://github.com/supengchao/MyApplication'      // 项目的主页
-//def gitUrl = 'https://github.com/supengchao/MyApplication.git'   // Git仓库的url
+//def siteUrl = 'https://github.com/supengchao/NovaAutoLayout'
+//def gitUrl = 'git@github.com:supengchao/NovaAutoLayout.git'
 //group = "com.github.supengchao"
 //install {
 //    repositories.mavenInstaller {
 //        pom {
 //            project {
 //                packaging 'aar'
-//                name 'nova auto layout'    //项目描述
+//                name 'nova auto layout'
 //                url siteUrl
 //                licenses {
 //                    license {
@@ -46,7 +45,7 @@ dependencies {
 //                }
 //                developers {
 //                    developer {
-//                        id 'supengchao'        //填写的一些基本信息
+//                        id 'supengchao'
 //                        name 'supengchao'
 //                        email '1459384963@qq.com'
 //                    }
@@ -86,7 +85,7 @@ dependencies {
 //    configurations = ['archives']
 //    pkg {
 //        repo = "maven"
-//        name = "novaautolayout"    //发布到JCenter上的项目名字
+//        name = "novaautolayout"
 //        websiteUrl = siteUrl
 //        vcsUrl = gitUrl
 //        licenses = ["Apache-2.0"]
